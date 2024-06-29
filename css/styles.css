@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    font-family: calibri;
+}
+
+.agregar_tarea {
+    background-color: var(--white) ;
+    width: 100%;
+    height: 70px;
+    border-radius: 15px;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    margin: 0px 0;
+
+}
+
+.agregar_tarea button {
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    color: aliceblue;
+    background-color: grey;
+}
+
+.agregar_tarea input {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: 2px solid;
+    padding-left:10px ;
+}
+
+
+.agregar_tarea button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.contenedor{
+    max-width:100%;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 0 30px;
+    border: 2px solid;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+
+.seccion_tarea li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius:15px ;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: grey;
+    color: aliceblue;
+}
+
+
+
+.seccion_tarea > ul p {
+    font-size: 1.2rem;
+}
+.seccion_tarea svg {
+    width: 20px;
+    height: 20px;
+}
+
+.seccion_tarea svg:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.completado {
+    text-decoration: line-through; /* Tacha el círculo */
+    /* Otros estilos que desees aplicar */
+}
+
+
+
+
